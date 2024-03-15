@@ -5,6 +5,8 @@ import WorkingAreaView from "../components/views/areas";
 import OurProductView from "../components/views/product";
 import TestimonialView from "../components/views/testimonial";
 import PortfolioPage from "../components/views/portfolio";
+import MapsView from "../components/views/maps";
+import FooterView from "../components/views/footer";
 
 function App() {
   return (
@@ -28,6 +30,12 @@ function App() {
       </>
       <>
         <PortfolioPage />
+      </>
+      <>
+        <MapsView />
+      </>
+      <>
+        <FooterView />
       </>
     </div>
   );
